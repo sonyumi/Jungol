@@ -1,5 +1,5 @@
 package q501;
-public class MainMain {
+public class Main {
 	public static void main(String[] args) {
 		System.out.println("Fun Programming!");
 	}
