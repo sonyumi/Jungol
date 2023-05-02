@@ -19,8 +19,7 @@ public class Main {
 			System.out.println("죄송합니다. 불합격입니다.");
 			
 		}
-		sc.close(); // sc 를 어디서 닫아야 하는지 쌤한테 물어보기!!
 		}
-		
+		sc.close(); // sc 를 어디서 닫아야 하는지 쌤한테 물어보기!!
 		}
 }
