@@ -8,17 +8,19 @@ public class Main {
 		Scanner sc = new Scanner(System.in);
 		int b = 0;
 		int c = 0;
-		for(;;) {
+		
+		for (;;) {
 			int a = sc.nextInt();
-			if(a%2!=0 && a!=0) {
-				b +=a;
+			if (a % 2 != 0) {
+				b += a;
 				c++;
-			} else if(a == 0) {
+			} else if (a == 0) {
+				sc.close();
 				break;
 			}
 		}
-		sc.close();
-		System.out.println("홀수의 합 = " +b);
-		System.out.println("홀수의 평균 = "+(b/c));
+
+		System.out.println("홀수의 합 = " + b);
+		System.out.println("홀수의 평균 = " + (b / c));
 	}
 }
