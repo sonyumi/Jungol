@@ -12,7 +12,6 @@ public class Main {
 //			c++;
 			int b = sc.nextInt();
 			a+=b;
-			
 			if(b >= 100) 
 				break;
 			c++;
