@@ -12,6 +12,7 @@ public class Main {
 			char a = sc.next().charAt(0);
 			b[i]+=a;
 		}
+		sc.close();
 		System.out.print(b[0]+" "+b[3]+" "+b[6]);
 	}
 }

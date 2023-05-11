@@ -9,7 +9,7 @@ public class Main {
 		int a = sc.nextInt();
 		int b = sc.nextInt();
 		sc.close();
-		System.out.print(a + 100 +" ");
-		System.out.println(b%10);
+		System.out.print(a + 100 +" "); //  ==   n1+=100;
+		System.out.println(b%10);     //    ==   n2%10;
 	}
 }

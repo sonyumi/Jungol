@@ -9,11 +9,11 @@ public class Main {
 		double a = sc.nextDouble();
 		double b = sc.nextDouble();
 		sc.close();
-		if(a>=4.0 && b>=4.0) {
+		if (a >= 4.0 && b >= 4.0) {
 			System.out.print("A");
-		}else if (a >= 3.0 && b >= 3.0) {
+		} else if (a >= 3.0 && b >= 3.0) {
 			System.out.print("B");
-		}else {
+		} else {
 			System.out.print("C");
 		}
 	}
