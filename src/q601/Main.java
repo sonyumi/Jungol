@@ -9,10 +9,10 @@ public class Main {
 		String sA = sc.next();
 		sc.close();
 		for (int i = sA.length() - 1; i >= 0; i--) {
-			for(int j = i;j<sA.length();j++) {
+			for (int j = i; j < sA.length(); j++) {
 				System.out.print(sA.charAt(j));
 			}
-			for(int j = 0;j<=i-1;j++) {
+			for (int j = 0; j <= i - 1; j++) {
 				System.out.print(sA.charAt(j));
 			}
 			System.out.println();
